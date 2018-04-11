@@ -32,7 +32,7 @@ var funkyFunction = function () {
 // NOTE: you only need to modify the code below this line.
   
   function theFunk(){
-  funkyFunction = function theFunk(){};
+  var funkyFunction = function theFunk(){};
   return "FUNKY!"
   }
   
